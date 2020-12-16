@@ -1,10 +1,10 @@
-import React, { ChangeEvent, useState } from "react";
+import React, {ChangeEvent, useState} from "react";
 import Greeting from "./Greeting";
-import { UserType } from "./HW3";
+import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
-  users: UserType[]; // need to fix any
-  addUserCallback: (name: string) => void; // need to fix any
+    users: UserType[]; // need to fix any
+    addUserCallback: (name: string) => void; // need to fix any
 };
 
 // более простой и понятный для новичков
@@ -13,35 +13,35 @@ type GreetingContainerPropsType = {
 // более современный и удобный для про :)
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => {
-  // деструктуризация пропсов
-  const [name, setName] = useState<string>(""); // need to fix any
-  const [error, setError] = useState<string>(""); // need to fix any
+    // деструктуризация пропсов
+    const [name, setName] = useState<string>(""); // need to fix any
+    const [error, setError] = useState<string>(""); // need to fix any
 
-  const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
-    setName(e.currentTarget.value);
-  };
-  const addUser = () => {
-    if (name.length > 0) {
-      addUserCallback(name);
-      alert(`Hello  ${name} !`); // need to fix
-    } else {
-      setError('ERROR')
-    }
-    setName ('')
-  };
+    const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
+        setName(e.currentTarget.value);
+        setError('')
+    };
+    const addUser = () => {
+        if (name.length > 0) {
+            addUserCallback(name);
+            alert(`Hello  ${name} !`); // need to fix
+        }
+        setError('ERROR')
+        setName('')
+    };
 
-  const totalUsers = users.length; // need to fix
-  
-  // (users.filter((name) => name !== '')).length
-  return (
-    <Greeting
-      name={name}
-      setNameCallback={setNameCallback}
-      addUser={addUser}
-      error={error}
-      totalUsers={totalUsers}
-    />
-  );
+    const totalUsers = users.length; // need to fix
+
+    // (users.filter((name) => name !== '')).length
+    return (
+        <Greeting
+            name={name}
+            setNameCallback={setNameCallback}
+            addUser={addUser}
+            error={error}
+            totalUsers={totalUsers}
+        />
+    );
 };
 
 export default GreetingContainer;
