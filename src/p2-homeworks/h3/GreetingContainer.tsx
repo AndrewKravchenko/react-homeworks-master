@@ -30,15 +30,19 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         setName('')
     };
 
+    const setOnBlur = () => {
+        setError('')
+    }
+
     const totalUsers = users.length; // need to fix
 
-    // (users.filter((name) => name !== '')).length
     return (
         <Greeting
             name={name}
             setNameCallback={setNameCallback}
             addUser={addUser}
             error={error}
+            setOnBlur={setOnBlur}
             totalUsers={totalUsers}
         />
     );

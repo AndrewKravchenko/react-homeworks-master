@@ -5,7 +5,7 @@ import {HashRouter} from "react-router-dom";
 
 function HW5() {
     return (
-        <div>
+        <div >
             {/*в gh-pages лучше работает HashRouter*/}
             <HashRouter>
 

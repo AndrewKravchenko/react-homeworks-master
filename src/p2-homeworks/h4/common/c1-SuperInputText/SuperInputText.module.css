@@ -1,7 +1,17 @@
 .superInput {
-    color: white;
-    background-color: #4CAF50;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    border-bottom: 4px solid #0c0000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    background: greenyellow;
 
+}
+
+.spanInput:focus {
+    width: 30%;
+    border-radius: 5px;
 }
 
 .errorInput {
@@ -11,6 +21,15 @@
 
 .error {
     font-size: 18px;
-    font-weight:bold;
+    font-weight: bold;
     color: #ff0000;
+}
+
+.spanClass {
+    border: 3px solid #000;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    font-size: large;
 }

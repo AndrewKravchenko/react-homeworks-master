@@ -2,8 +2,7 @@
 
 }
 
-
-.button {
+.superButton {
     display: inline-block;
     padding: 5px 10px;
     font-size: 16px;
@@ -23,15 +22,19 @@
     position: relative;
     overflow: hidden;
     outline: none;
+    margin-left: 5px;
+}
+.superButton:hover{
+    box-shadow: 0 5px;
 }
 
-.button:active {
+.superButton:active {
     background-color: #8842d5;
-    box-shadow: 0 6px #667;
+    box-shadow: 0 -1px #667;
     transform: translateY(5px);
 }
 
-.button:after {
+.superButton:after {
     content: "";
     background: #f441f1;
     display: block;
@@ -44,7 +47,7 @@
     transition: all 0.9s;
 }
 
-.button:active:after {
+.superButton:active:after {
     padding: 0;
     margin: 0;
     opacity: 1;
