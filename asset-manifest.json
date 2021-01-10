@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-homeworks-master/static/css/main.ad8fdf90.chunk.css",
-    "main.js": "/react-homeworks-master/static/js/main.66f8ec66.chunk.js",
-    "main.js.map": "/react-homeworks-master/static/js/main.66f8ec66.chunk.js.map",
+    "main.css": "/react-homeworks-master/static/css/main.4b3044b8.chunk.css",
+    "main.js": "/react-homeworks-master/static/js/main.73696ae5.chunk.js",
+    "main.js.map": "/react-homeworks-master/static/js/main.73696ae5.chunk.js.map",
     "runtime-main.js": "/react-homeworks-master/static/js/runtime-main.968b1d48.js",
     "runtime-main.js.map": "/react-homeworks-master/static/js/runtime-main.968b1d48.js.map",
-    "static/js/2.ee73e2bd.chunk.js": "/react-homeworks-master/static/js/2.ee73e2bd.chunk.js",
-    "static/js/2.ee73e2bd.chunk.js.map": "/react-homeworks-master/static/js/2.ee73e2bd.chunk.js.map",
+    "static/js/2.8be81616.chunk.js": "/react-homeworks-master/static/js/2.8be81616.chunk.js",
+    "static/js/2.8be81616.chunk.js.map": "/react-homeworks-master/static/js/2.8be81616.chunk.js.map",
     "index.html": "/react-homeworks-master/index.html",
-    "precache-manifest.14a74ae246a130e828b662150a33044c.js": "/react-homeworks-master/precache-manifest.14a74ae246a130e828b662150a33044c.js",
+    "precache-manifest.294fe46cbb780422807d5547752eb9fe.js": "/react-homeworks-master/precache-manifest.294fe46cbb780422807d5547752eb9fe.js",
     "service-worker.js": "/react-homeworks-master/service-worker.js",
-    "static/css/main.ad8fdf90.chunk.css.map": "/react-homeworks-master/static/css/main.ad8fdf90.chunk.css.map",
-    "static/js/2.ee73e2bd.chunk.js.LICENSE.txt": "/react-homeworks-master/static/js/2.ee73e2bd.chunk.js.LICENSE.txt",
-    "static/media/Error404.module.css": "/react-homeworks-master/static/media/girl.8dd80e30.jpg"
+    "static/css/main.4b3044b8.chunk.css.map": "/react-homeworks-master/static/css/main.4b3044b8.chunk.css.map",
+    "static/js/2.8be81616.chunk.js.LICENSE.txt": "/react-homeworks-master/static/js/2.8be81616.chunk.js.LICENSE.txt",
+    "static/media/girl.jpg": "/react-homeworks-master/static/media/girl.8dd80e30.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.968b1d48.js",
-    "static/js/2.ee73e2bd.chunk.js",
-    "static/css/main.ad8fdf90.chunk.css",
-    "static/js/main.66f8ec66.chunk.js"
+    "static/js/2.8be81616.chunk.js",
+    "static/css/main.4b3044b8.chunk.css",
+    "static/js/main.73696ae5.chunk.js"
   ]
 }
